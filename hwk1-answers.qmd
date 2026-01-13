@@ -14,8 +14,16 @@ format:
 ```{r}
 #| include: false
 
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(tidyverse, ggplot2, dplyr, lubridate, stringr, readxl, data.table, gdata, scales, kableExtra)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+library(stringr)
+library(readxl)
+library(data.table)
+library(gdata)
+library(scales)
+library(kableExtra)
 ```
 
 
